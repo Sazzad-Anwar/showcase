@@ -1,0 +1,111 @@
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css');
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.material-icons-outlined {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+/* input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0 30px transparent inset !important;
+    box-shadow: 0 0 0 30px transparent inset !important;
+    border: 0px solid #352e3d !important;
+    border-radius: 0px !important;
+    color: #d3cbdb !important;
+} */
+
+div::-webkit-scrollbar {
+    width: 6px;
+}
+
+div::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+div::-webkit-scrollbar-thumb {
+    background: transparent;
+    border-radius: 5px;
+    transition: background 0.3s ease-in-out;
+}
+
+div:hover::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.ant-input:focus,
+.ant-input-focused {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
+
+svg {
+    vertical-align: initial;
+}
+
+img,
+svg,
+video,
+canvas,
+audio,
+iframe,
+embed,
+object {
+    display: initial;
+}
+
+.page-header-bg {
+    background-color: #302938;
+}
+
+#components-layout-demo-custom-trigger .trigger {
+    padding: 0 24px;
+    font-size: 18px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    margin: 16px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.ant-image-preview-mask {
+    background-color: rgb(0 0 0 / 72%);
+}
